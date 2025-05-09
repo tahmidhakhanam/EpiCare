@@ -1,0 +1,134 @@
+/* CSS Document */
+@charset "UTF-8";
+
+html {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.left-container {
+    flex: 1;
+    width: 50%;
+    position: relative;
+}
+
+.left-container img {
+    width: 100%;
+    position: relative;
+}
+
+.welcome-info {
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    text-align: center;
+    color: #ffffffd5;
+}
+
+.welcome-info h2 {
+    margin-top: 10%;
+    font-size: 3rem;
+    margin-bottom: 5%;
+}
+
+.welcome-info img {
+    width: 20%;
+}
+
+.welcome-info p {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-top: 5%;
+}
+
+.right-container {
+    flex: 1;
+    width: 50%;
+    background-color: #414287;
+    align-content: center;
+}
+
+form {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin: 25% 20% 20% 20%;
+    padding: 10%;
+    padding-bottom: 15%;
+    border-radius: 15px;
+}
+
+h2 {
+    margin-bottom: 10%;
+}
+
+form input {
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 10%;
+    box-sizing: border-box;
+}
+
+form button {
+    width: 100%;
+    padding: 5px;
+    margin-top: 10%;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.reset {
+    float: left;
+}
+
+.registration {
+    float: right;
+}
+
+.registration, .reset {
+    font-size: 0.8rem;
+    text-decoration: none;
+    padding-top: 15%;
+}
+
+footer {
+    background-color: #414287;
+    margin-bottom: 0;
+    color: #ffffffd5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.social {
+    float: right;
+    width: 15%;
+    margin-top: 1%;
+}
+
+.social i {
+    color: #ffffffd5;
+    font-size: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
